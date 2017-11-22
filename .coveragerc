@@ -1,7 +1,7 @@
 # .coveragerc to control coverage.py
 [run]
 branch = True
-source = cusersjsantospythonprojectsresearch_eda_osm_rj
+source = research_eda_osm_rj
 # omit = bad_file.py
 
 [report]

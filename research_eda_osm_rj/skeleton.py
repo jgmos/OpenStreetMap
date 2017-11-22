@@ -6,7 +6,7 @@ console script. To run this script uncomment the following line in the
 entry_points section in setup.cfg:
 
     console_scripts =
-     fibonacci = cusersjsantospythonprojectsresearch_eda_osm_rj.skeleton:run
+     fibonacci = research_eda_osm_rj.skeleton:run
 
 Then run `python setup.py install` which will install the command `fibonacci`
 inside your current environment.
@@ -21,7 +21,7 @@ import argparse
 import sys
 import logging
 
-from cusersjsantospythonprojectsresearch_eda_osm_rj import __version__
+from research_eda_osm_rj import __version__
 
 __author__ = "jgmos"
 __copyright__ = "jgmos"

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from cusersjsantospythonprojectsresearch_eda_osm_rj.skeleton import fib
+from research_eda_osm_rj.skeleton import fib
 
 __author__ = "jgmos"
 __copyright__ = "jgmos"

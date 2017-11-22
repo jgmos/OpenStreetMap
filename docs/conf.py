@@ -31,7 +31,7 @@ if on_rtd:
         inspect.getfile(inspect.currentframe())))
 
     output_dir = os.path.join(__location__, "../docs/api")
-    module_dir = os.path.join(__location__, "../cusersjsantospythonprojectsresearch_eda_osm_rj")
+    module_dir = os.path.join(__location__, "../research_eda_osm_rj")
     cmd_line_template = "sphinx-apidoc -f -o {outputdir} {moduledir}"
     cmd_line = cmd_line_template.format(outputdir=output_dir, moduledir=module_dir)
     apidoc.main(cmd_line.split(" "))
@@ -128,7 +128,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 try:
-    from cusersjsantospythonprojectsresearch_eda_osm_rj import __version__ as version
+    from usersjsantospythonprojectsresearch_eda_osm_rj import __version__ as version
 except ImportError:
     pass
 else:
@@ -193,7 +193,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cusersjsantospythonprojectsresearch_eda_osm_rj-doc'
+htmlhelp_basename = 'usersjsantospythonprojectsresearch_eda_osm_rj-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    Setup file for cusersjsantospythonprojectsresearch_eda_osm_rj.
+    Setup file for research_eda_osm_rj.
 
     This file was generated with PyScaffold 2.5.8, a tool that easily
     puts up a scaffold for your new Python project. Learn more under:
@@ -10,7 +10,6 @@
 
 import sys
 from setuptools import setup
-
 
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
